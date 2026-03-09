@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Global styling */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background-color: #f8fafc;
+
+  
+  }
+
+@layer utilities {
+  .text-cb-blue {
+    color: #0052FF;
+  }
+  .bg-cb-blue {
+    background-color: #0052FF;
+  }
+  .hover-bg-cb-blue:hover {
+    background-color: #0045D8;
+  }
+  .text-cb-gray {
+    color: #5B616E;
+  }
+}
+
+
+
