@@ -1,10 +1,10 @@
 export const homeContent = {
-  "title": "Coinbase - Buy and Sell Bitcoin, Ethereum, and more with trust",
+  "title": "Zerobase - Buy and Sell Bitcoin, Ethereum, and more with trust",
   "description": "The future of finance is here. Trade crypto, stocks, and more on a platform you can trust. Sign up and get up to $2,000 in crypto.",
   "articles": [
     {
       "title": "The largest public crypto company",
-      "description": "In April 2021, Coinbase became the largest publicly traded crypto company in the world. That means we operate with more financial transparency, and make our financial statements available each quarter.",
+      "description": "In April 2021, Zerobase became the largest publicly traded crypto company in the world. That means we operate with more financial transparency, and make our financial statements available each quarter.",
       "image": "https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/worldwide-3.svg",
       "href": "https://investor.coinbase.com/home/default.aspx"
     },
@@ -16,7 +16,7 @@ export const homeContent = {
     },
     {
       "title": "Your crypto is your crypto",
-      "description": "It’s that simple. Coinbase doesn't use, or lend, your assets without your permission. We run a multifaceted risk management program designed to protect our customers' assets.",
+      "description": "It’s that simple. Zerobase doesn't use, or lend, your assets without your permission. We run a multifaceted risk management program designed to protect our customers' assets.",
       "image": "https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/safe-3.svg",
       "href": "https://www.coinbase.com/prime"
     },
@@ -27,7 +27,7 @@ export const homeContent = {
       "href": "https://help.coinbase.com/en"
     },
     {
-      "title": "Maximize your experience with Coinbase One",
+      "title": "Maximize your experience with Zerobase One",
       "description": "Get $0 trading fees on your first $500/mo in trades, 3.5% unlimited USDC rewards, and an exclusive stainless steel card.",
       "image": "https://images.ctfassets.net/o10es7wu5gm1/6nZH4sYSMbCYXjmwiAn8Mf/92a0121bca95dd003e6625ce5e4f9ea2/CB_one_hero.png?fm=avif&w=1977&h=1977&q=65",
       "href": "https://www.coinbase.com/one"

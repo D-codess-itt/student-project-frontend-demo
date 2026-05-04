@@ -43,7 +43,7 @@ export default function SignIn() {
 
   return (
     <div className="max-w-md mx-auto mt-20 p-8 border border-gray-100 rounded-lg shadow-xl">
-      <h2 className="text-2xl font-bold mb-6 text-center">Sign in to Coinbase</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">Sign in to Zerobase</h2>
       
       {/* Show error messages if there are any */}
       {errorMessage && (

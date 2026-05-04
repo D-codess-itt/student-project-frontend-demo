@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* LEFT: Logo & Links */}
         <div className="flex items-center space-x-8">
           <Link to="/" className="text-blue-600 text-2xl font-black tracking-tighter">
-            coinbase
+            zerobase
           </Link>
 
           <ul className="hidden lg:flex space-x-6 text-sm font-semibold text-gray-700">
@@ -39,7 +39,7 @@ export default function Navbar() {
                     <p className="text-gray-500 font-normal text-sm">Post, earn, trade, and chat, all in one place</p>
                   </Link>
                   <Link to="/one" className="block p-3 hover:bg-gray-50 rounded-xl transition">
-                    <h4 className="font-bold text-gray-900">Coinbase One</h4>
+                    <h4 className="font-bold text-gray-900">Zerobase One</h4>
                     <p className="text-gray-500 font-normal text-sm">Get zero trading fees and more</p>
                   </Link>
                 </div>
@@ -183,7 +183,7 @@ export default function Navbar() {
                 <div className="w-1/3 bg-white-600 rounded-xl p-6 flex flex-col justify-center text-black text-center">
                     <img data-testid="next-gen-image-img"
               src="https://static-assets.coinbase.com/growth/acquisition/global-nav/upsell/company_upsell.png" />
-                  <h4 className="font-bold mb-2">Learn all about Coinbase:</h4>
+                  <h4 className="font-bold mb-2">Learn all about Zerobase:</h4>
                   <p className="text-sm opacity-90 underline cursor-pointer">Create your account</p>
                 </div>
               </div>

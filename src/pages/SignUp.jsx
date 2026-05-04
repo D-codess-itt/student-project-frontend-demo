@@ -48,7 +48,7 @@ export default function SignUp() {
   return (
     <div className="max-w-md mx-auto mt-16 p-8 border border-gray-100 rounded-lg shadow-xl mb-20">
       <h2 className="text-2xl font-bold mb-2 text-center">Create your account</h2>
-      <p className="text-gray-500 text-center mb-8">Access all that Coinbase has to offer with a single account.</p>
+      <p className="text-gray-500 text-center mb-8">Access all that Zerobase has to offer with a single account.</p>
       
       {/* Show error message if registration fails */}
       {errorMessage && (

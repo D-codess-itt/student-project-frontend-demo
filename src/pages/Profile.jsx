@@ -12,6 +12,7 @@ export default function Profile() {
   const [price, setPrice] = useState('');
   const [image, setImage] = useState('');
   const [change24h, setChange24h] = useState('');
+  const [marketCap, setMarketCap] = useState(''); // Added Market Cap state
 
   useEffect(() => {
     const fetchProfile = async () => {
@@ -47,14 +48,15 @@ export default function Profile() {
           symbol,
           price: Number(price),
           image,
-          change24h: Number(change24h)
+          change24h: Number(change24h),
+          marketCap // Added to database payload
         }),
       });
 
       if (response.ok) {
         alert("Cryptocurrency added successfully!");
-        // Clear form
-        setCryptoName(''); setSymbol(''); setPrice(''); setImage(''); setChange24h('');
+        // Clear form including new market cap field
+        setCryptoName(''); setSymbol(''); setPrice(''); setImage(''); setChange24h(''); setMarketCap('');
       } else {
         alert("Failed to add crypto.");
       }
@@ -87,7 +89,10 @@ export default function Profile() {
           <input type="text" placeholder="Image URL" className="p-3 border rounded" value={image} onChange={(e)=>setImage(e.target.value)} required />
           <input type="number" step="0.01" placeholder="24h Change %" className="p-3 border rounded" value={change24h} onChange={(e)=>setChange24h(e.target.value)} required />
           
-          <button type="submit" className="md:col-span-2 bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition">
+          {/* New Market Cap Input */}
+          <input type="text" placeholder="Market Cap (e.g. 1.28T)" className="p-3 border rounded" value={marketCap} onChange={(e)=>setMarketCap(e.target.value)} required />
+          
+          <button type="submit" className="md:col-span-2 bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition mt-2">
             Add to Database
           </button>
         </form>

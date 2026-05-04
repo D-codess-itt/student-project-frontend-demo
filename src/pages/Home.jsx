@@ -5,18 +5,33 @@ import Button from '../components/common/Button';
 
 export default function Home() {
   const [liveCryptos, setLiveCryptos] = useState([]);
+  const [topGainers, setTopGainers] = useState([]); // Storage for gainers
+  const [newListings, setNewListings] = useState([]); // Storage for new coins
 
   useEffect(() => {
-    const fetchAssets = async () => {
+    const fetchHomeData = async () => {
       try {
-        const response = await fetch('https://student-project-backend-production-e29f.up.railway.app/api/crypto');
-        const data = await response.json();
-        setLiveCryptos(data);
+        const baseUrl = 'https://student-project-backend-production-e29f.up.railway.app/api/crypto';
+        
+        // Fetch all 3 at once
+        const [resAll, resGainers, resNew] = await Promise.all([
+          fetch(`${baseUrl}`),
+          fetch(`${baseUrl}/gainers`),
+          fetch(`${baseUrl}/new`)
+        ]);
+
+        const allData = await resAll.json();
+        const gainersData = await resGainers.json();
+        const newData = await resNew.json();
+
+        setLiveCryptos(allData);
+        setTopGainers(gainersData);
+        setNewListings(newData);
       } catch (err) {
         console.error("Connection failed:", err);
       }
     };
-    fetchAssets();
+    fetchHomeData();
   }, []);
   
   return (
@@ -26,10 +41,10 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-6xl font-bold text-gray-900 mb-6 tracking-tight leading-tight">
-              Hello, UK! Meet <br/> Coinbase GB
+              Hello, UK! Meet <br/> Zerobase GB
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-lg">
-              Coinbase is the most trusted platform in the UK for buying, selling and trading crypto. <br />Deposit GBP into your account for free to get started today.
+              Zerobase is the most trusted platform in the UK for buying, selling and trading crypto. <br />Deposit GBP into your account for free to get started today.
             </p>
             <div className="flex space-x-4">
               <Link to="/signup" className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition">
@@ -58,7 +73,7 @@ export default function Home() {
            </div>
            <div className="w-full md:w-1/2">
              <h2 className="text-5xl font-bold mb-6">Earn up to 14% APY on your crypto</h2>
-             <p className="text-xl text-gray-400 mb-8">Put your crypto to work by staking with Coinbase and earn rewards of up to 14% APY on your holdings.</p>
+             <p className="text-xl text-gray-400 mb-8">Put your crypto to work by staking with Zerobase and earn rewards of up to 14% APY on your holdings.</p>
              <button className="bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition">
                Explore staking options
              </button>
@@ -78,14 +93,25 @@ export default function Home() {
           </div>
           
           <div className="space-y-6">
-            <div className="flex justify-between items-center border-b border-gray-800 pb-4">
-              <div className="flex items-center space-x-4"><span className="text-2xl">₿</span><span className="text-2xl font-bold">Bitcoin</span></div>
-              <div className="text-right"><p className="text-2xl font-bold">£50,119.49</p><p className="text-red-500">↘ 1.14%</p></div>
-            </div>
-            <div className="flex justify-between items-center border-b border-gray-800 pb-4">
-              <div className="flex items-center space-x-4"><span className="text-2xl text-blue-400">♦</span><span className="text-2xl font-bold">Ethereum</span></div>
-              <div className="text-right"><p className="text-2xl font-bold">£1,451.23</p><p className="text-red-500">↘ 2.08%</p></div>
-            </div>
+            <h3 className="text-xl font-bold text-blue-400">Top Gainers today</h3>
+            
+            {topGainers.slice(0, 3).map((coin) => (
+              <div key={coin._id} className="flex justify-between items-center border-b border-gray-800 pb-4">
+                <div className="flex items-center space-x-4">
+                  <span className="text-2xl font-bold">{coin.name}</span>
+                  <span className="text-gray-500 text-sm uppercase">{coin.symbol}</span>
+                </div>
+                <div className="text-right">
+                  <p className="text-2xl font-bold">£{coin.price?.toLocaleString()}</p>
+                  <p className="text-green-400">↗ {coin.change}%</p>
+                </div>
+              </div>
+            ))}
+            
+            {/* Link to see the full list */}
+            <Link to="/explore" className="text-sm text-gray-400 hover:text-white transition">
+              View all market movers →
+            </Link>
           </div>
         </div>
       </section>
