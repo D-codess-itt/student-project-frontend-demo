@@ -29,7 +29,8 @@ export default function Profile() {
         const data = await response.json();
         setUserData(data);
       } catch (err) {
-        setError("Could not connect to the server.");
+        console.error("Connection error:", err);
+        navigate('/signin');
       }
     };
     fetchProfile();
