@@ -16,7 +16,7 @@ export default function Profile() {
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/profile', {
+        const response = await fetch('[https://student-project-backend-production-cdc4.up.railway.app/api/profile](https://student-project-backend-production-cdc4.up.railway.app/api/profile)', {
           method: 'GET',
           credentials: 'include', 
         });
@@ -38,7 +38,7 @@ export default function Profile() {
   const handleAddCrypto = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/crypto', {
+      const response = await fetch('https://student-project-backend-production-cdc4.up.railway.app/api/crypto', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

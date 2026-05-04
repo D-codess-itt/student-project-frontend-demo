@@ -16,7 +16,7 @@ export default function SignIn() {
     try {
       // 3. THIS IS THE FETCH CALL! 
       // It sends the email and password to your backend
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch('https://student-project-backend-production-cdc4.up.railway.app/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
