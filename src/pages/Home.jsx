@@ -9,7 +9,7 @@ export default function Home() {
   useEffect(() => {
     const fetchAssets = async () => {
       try {
-        const response = await fetch('https://student-project-backend-production-cdc4.up.railway.app/api/crypto');
+        const response = await fetch('https://student-project-backend-production-e29f.up.railway.app/api/crypto');
         const data = await response.json();
         setLiveCryptos(data);
       } catch (err) {
