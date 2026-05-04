@@ -5,6 +5,9 @@ import { FiMenu } from 'react-icons/fi';
 export default function Navbar() {
   return (
     <nav className="border-b border-gray-100 bg-white sticky top-0 z-50">
+      <div style={{ backgroundColor: '#dc2626', color: 'white', textAlign: 'center', padding: '8px', fontWeight: 'bold' }}>
+      ⚠️ STUDENT PROJECT DEMO: This is not the real Coinbase. Do not enter real financial information.</div>
+
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         
         {/* LEFT: Logo & Links */}
@@ -207,6 +210,12 @@ export default function Navbar() {
           <Link to="/signin" className="hidden lg:block text-sm font-semibold hover:text-blue-600">Sign in</Link>
           <Link to="/signup" className="bg-blue-600 text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-blue-700 transition">
             Sign up
+          </Link>
+          
+          <Link 
+          to="/profile" 
+          className="bg-gray-100 px-4 py-2 rounded-full hover:bg-gray-200 transition">
+          Profile
           </Link>
         </div>
       </div>

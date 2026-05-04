@@ -1,8 +1,24 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { homeContent } from '../data/homeContent'; 
 import Button from '../components/common/Button';
 
 export default function Home() {
+  const [liveCryptos, setLiveCryptos] = useState([]);
+
+  useEffect(() => {
+    const fetchAssets = async () => {
+      try {
+        const response = await fetch('http://localhost:5000/api/crypto');
+        const data = await response.json();
+        setLiveCryptos(data);
+      } catch (err) {
+        console.error("Connection failed:", err);
+      }
+    };
+    fetchAssets();
+  }, []);
+  
   return (
     <div className="bg-white min-h-screen">
       {/* 1. Hero Section */}
