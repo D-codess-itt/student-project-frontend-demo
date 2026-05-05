@@ -68,7 +68,7 @@ export default function Home() {
         <div className="bg-black rounded-[40px] p-12 md:p-20 text-white flex flex-col md:flex-row items-center gap-12">
            <div className="w-full md:w-1/2">
              <img data-testid="next-gen-image-img"
-              src="https://images.ctfassets.net/o10es7wu5gm1/5eDlqRUVRbu6MEGwBt9qqL/e78c6068e2a205ca275882b6849a499d/Learn_Illustration_What_is_Staking.png" 
+              src="https://aqru.io/app/uploads/2022/04/staking.png" 
             />
            </div>
            <div className="w-full md:w-1/2">
@@ -144,7 +144,7 @@ export default function Home() {
           
           <div className="relative flex justify-center">
             <img data-testid="next-gen-image-img"
-              src="https://images.ctfassets.net/o10es7wu5gm1/3FwiGvu5fYVsludi8jgOY7/14e7039558786f182123e658c6940151/Advanced.png?fm=avif&w=2014&h=1612&q=65" 
+              src="https://www.mitrade.com/_next/static/media/platform-black-h5-en.5f9a0248.png" 
             />
           </div>
         </div>

@@ -11,19 +11,19 @@ export const homeContent = {
     {
       "title": "What's changing with crypto taxes this year",
       "description": "For the first time, the IRS is requiring custodial brokers, like Coinbase, to report customer proceeds from crypto transactions using the new Form 1099-DA.",
-      "image": "https://images.ctfassets.net/sygt3q11s4a9/7DSJMlcUiOOS06olpdd12j/aa58771d086fd88cab5da171cce9828b/Screenshot_2026-01-21_at_2.46.12%C3%A2__PM.png?fm=avif&w=926&h=517&q=65",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKSS3YdREjBFP7mcTH_zb7vaGfHZOqLhFgA&s",
       "href": "https://www.coinbase.com/blog/whats-changing-with-crypto-taxes-this-year"
     },
     {
       "title": "Your crypto is your crypto",
       "description": "It’s that simple. Zerobase doesn't use, or lend, your assets without your permission. We run a multifaceted risk management program designed to protect our customers' assets.",
-      "image": "https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/safe-3.svg",
+      "image": "https://cdn-icons-png.freepik.com/512/15430/15430533.png",
       "href": "https://www.coinbase.com/prime"
     },
     {
       "title": "The help you need, when you need it",
       "description": "You can always contact our support team by messaging to speak with our virtual assistant, or depending on the hours, with a real live support agent. You can also check out our Help Center for quick solutions to common problems.",
-      "image": "https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/support-5.svg",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQV4uxImJHZYx7Odt-m7T6hKvM0W9Mj1PudMBCH7Tyd5VNY5-gk",
       "href": "https://help.coinbase.com/en"
     },
     {
@@ -35,7 +35,7 @@ export const homeContent = {
     {
       "title": "The Visa® debit card that rewards crypto",
       "description": "Turn your everyday purchases into crypto rewards. No hidden fees and zero spending fees for US users.",
-      "image": "https://images.ctfassets.net/o10es7wu5gm1/4AsEsKXTMmSVky9wG1MNqM/1ceaf6ca937f526948ea3b909edb2e71/landing_hero_white_bg.png?fm=avif&w=3840&h=2160&q=65",
+      "image": "https://creativereview-production.s3.eu-west-2.amazonaws.com/uploads/2022/06/Card_5k_edit.jpg?auto=compress,format&crop=faces,entropy,edges&fit=crop&q=60&w=1200&h=8005",
       "href": "https://www.coinbase.com/card"
     },
     {
