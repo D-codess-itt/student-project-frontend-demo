@@ -45,7 +45,7 @@ export default function Navbar() {
                 </div>
                 <div className="w-1/3 bg-white-600 rounded-xl p-6 flex flex-col justify-center text-black text-center">
                     <img data-testid="next-gen-image-img"
-              src="https://static-assets.coinbase.com/marketing/2025-q4-event/navigation-upsell.png" />
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKSS3YdREjBFP7mcTH_zb7vaGfHZOqLhFgA&s" />
                   <h4 className="font-bold mb-2">System Update 2025</h4>
                   <p className="text-sm opacity-90 underline cursor-pointer">Learn more</p>
                 </div>
@@ -111,7 +111,7 @@ export default function Navbar() {
                 </div>
                 <div className="w-1/3 bg-white-600 rounded-xl p-6 flex flex-col justify-center text-black text-center">
                     <img data-testid="next-gen-image-img"
-              src="https://static-assets.coinbase.com/growth/acquisition/global-nav/upsell/institutions_upsell.png" />
+              src="https://img.freepik.com/premium-vector/world-doting-map-vector-illustration_1076249-2844.jpg" />
                   <h4 className="font-bold mb-2">Our clients</h4>
                   <p>Trusted by institutions and government</p>
                   <p className="text-sm opacity-90 underline cursor-pointer">Learn more</p>
@@ -145,7 +145,7 @@ export default function Navbar() {
                 </div>
                 <div className="w-1/3 bg-white-600 rounded-xl p-6 flex flex-col justify-center text-black text-center">
                     <img data-testid="next-gen-image-img"
-              src="https://static-assets.coinbase.com/growth/acquisition/global-nav/upsell/developers_upsell_cdxv2_2.jpg" />
+              src="https://cdn.dribbble.com/userupload/44984948/file/0e8a0a96b8f59dcea1d9dcf0300cf959.png" />
                   <h4 className="font-bold mb-2">World class crypto infrastructure.</h4>
                   <p className="text-sm opacity-90 underline cursor-pointer">Learn more</p>
                 </div>
@@ -173,7 +173,7 @@ export default function Navbar() {
                 <div className="flex-1 space-y-4">
                   <Link to="/blog" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">Blog</h4>
-                    <p className="text-gray-500 font-normal text-sm">Read the latest from Coinbase</p>
+                    <p className="text-gray-500 font-normal text-sm">Read the latest from Zerobase</p>
                   </Link>
                   <Link to="/security" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">Security</h4>
@@ -182,7 +182,7 @@ export default function Navbar() {
                 </div>
                 <div className="w-1/3 bg-white-600 rounded-xl p-6 flex flex-col justify-center text-black text-center">
                     <img data-testid="next-gen-image-img"
-              src="https://static-assets.coinbase.com/growth/acquisition/global-nav/upsell/company_upsell.png" />
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSo3S2nYHkDMB-OKFqNVOyjF6xh5NLMFtFKL8KPuX3xxmriX-Q-" />
                   <h4 className="font-bold mb-2">Learn all about Zerobase:</h4>
                   <p className="text-sm opacity-90 underline cursor-pointer">Create your account</p>
                 </div>

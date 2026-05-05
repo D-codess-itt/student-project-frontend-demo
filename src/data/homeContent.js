@@ -5,20 +5,20 @@ export const homeContent = {
     {
       "title": "The largest public crypto company",
       "description": "In April 2021, Zerobase became the largest publicly traded crypto company in the world. That means we operate with more financial transparency, and make our financial statements available each quarter.",
-      "image": "https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/worldwide-3.svg",
-      "href": "https://investor.coinbase.com/home/default.aspx"
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTE0elDpvug19pyXC_sdrZVDAtv4XDnS1XHDVUEqWSJHLgUYmT_",
+      "href": "https://www.linkedin.com/posts/nagesh-devata_pay-get-paid-worldwide-payoneer-activity-7099256157315235841--1SW"
     },
     {
       "title": "What's changing with crypto taxes this year",
-      "description": "For the first time, the IRS is requiring custodial brokers, like Coinbase, to report customer proceeds from crypto transactions using the new Form 1099-DA.",
+      "description": "For the first time, the IRS is requiring custodial brokers, like Zerobase, to report customer proceeds from crypto transactions using the new Form 1099-DA.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKSS3YdREjBFP7mcTH_zb7vaGfHZOqLhFgA&s",
-      "href": "https://www.coinbase.com/blog/whats-changing-with-crypto-taxes-this-year"
+      "href": "https://finance.yahoo.com/news/experts-reveal-major-change-could-043000020.html"
     },
     {
       "title": "Your crypto is your crypto",
       "description": "It’s that simple. Zerobase doesn't use, or lend, your assets without your permission. We run a multifaceted risk management program designed to protect our customers' assets.",
       "image": "https://cdn-icons-png.freepik.com/512/15430/15430533.png",
-      "href": "https://www.coinbase.com/prime"
+      "href": "https://beincrypto.com/learn/how-crypto-prime-brokerage-works/"
     },
     {
       "title": "The help you need, when you need it",
@@ -30,7 +30,7 @@ export const homeContent = {
       "title": "Maximize your experience with Zerobase One",
       "description": "Get $0 trading fees on your first $500/mo in trades, 3.5% unlimited USDC rewards, and an exclusive stainless steel card.",
       "image": "https://images.ctfassets.net/o10es7wu5gm1/6nZH4sYSMbCYXjmwiAn8Mf/92a0121bca95dd003e6625ce5e4f9ea2/CB_one_hero.png?fm=avif&w=1977&h=1977&q=65",
-      "href": "https://www.coinbase.com/one"
+      "href": "https://www.cnbc.com/select/best-crypto-cards-2025/"
     },
     {
       "title": "The Visa® debit card that rewards crypto",
@@ -42,7 +42,7 @@ export const homeContent = {
       "title": "2025 Crypto Market Outlook",
       "description": "Crypto markets are poised for transformative growth in 2025, continuing their momentum of maturation and institutional adoption.",
       "image": "https://images.ctfassets.net/k3n74unfin40/6auO70JmUum9BzJaKxNlH7/f7f44bc337e593eecbd8252496a81029/yearly-20241216-outlook.jpeg?fm=avif&h=600&q=65",
-      "href": "https://www.coinbase.com/institutional/research-insights/research/market-intelligence/2025-crypto-market-outlook"
+      "href": "https://www.strategyand.pwc.com/de/en/industries/financial-services/crypto-survey.html"
     }
   ]
 }
