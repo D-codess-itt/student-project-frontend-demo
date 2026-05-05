@@ -100,8 +100,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-center mt-8">© 2026  Zerobase Demo. All rights reserved.</div>
-        <p style={{ color: 'gray', fontSize: '12px', marginTop: '20px' }}>
-          DISCLAIMER: This website is a functional demo created for educational purposes only. It is not affiliated with, endorsed by, or connected to Coinbase. No real transactions occur here.</p>
+        <p style={{ color: 'gray', fontSize: '12px', marginTop: '20px' }}></p>
+        <div style={{ backgroundColor: '#dc2626', color: 'white', textAlign: 'center', padding: '8px', fontWeight: 'bold' }}>
+          DISCLAIMER: This site is a functional demo created for educational purposes only. It is not affiliated with, endorsed by, or connected to Coinbase. No real transactions occur here!
+        </div>
       </div>
     </footer>
   );

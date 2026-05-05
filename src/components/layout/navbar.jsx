@@ -26,11 +26,11 @@ export default function Navbar() {
                 <div className="flex-1 space-y-4">
                   <Link to="/signup" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">Buy and sell</h4>
-                    <p className="text-gray-500 font-normal text-sm">Buy, sell, and use crypto</p>
+                    <p className="text-gray-500 font-normal text-sm">Buy, sell, and use crypt0</p>
                   </Link>
                   <Link to="/earn" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">Earn</h4>
-                    <p className="text-gray-500 font-normal text-sm">Stake your crypto and earn rewards</p>
+                    <p className="text-gray-500 font-normal text-sm">Stake your crypt0 and earn rewards</p>
                   </Link>
                 </div>
                 <div className="flex-1 space-y-4">
@@ -59,7 +59,7 @@ export default function Navbar() {
                 <div className="flex-1 space-y-4">
                   <Link to="/business" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">Business</h4>
-                    <p className="text-gray-500 font-normal text-sm">Crypto trading and payments for startups and SMBs</p>
+                    <p className="text-gray-500 font-normal text-sm">Crypt0 trading and payments for startups and SMBs</p>
                   </Link>
                   <Link to="/payments" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">Payments</h4>
@@ -130,7 +130,7 @@ export default function Navbar() {
                   </Link>
                   <Link to="/trading" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">Trading</h4>
-                    <p className="text-gray-500 font-normal text-sm">Launch crypto trading and custody for your users</p>
+                    <p className="text-gray-500 font-normal text-sm">Launch crypt0 trading and custody for your users</p>
                   </Link>
                 </div>
                 <div className="flex-1 space-y-4">
@@ -146,7 +146,7 @@ export default function Navbar() {
                 <div className="w-1/3 bg-white-600 rounded-xl p-6 flex flex-col justify-center text-black text-center">
                     <img data-testid="next-gen-image-img"
               src="https://cdn.dribbble.com/userupload/44984948/file/0e8a0a96b8f59dcea1d9dcf0300cf959.png" />
-                  <h4 className="font-bold mb-2">World class crypto infrastructure.</h4>
+                  <h4 className="font-bold mb-2">World class crypt0 infrastructure.</h4>
                   <p className="text-sm opacity-90 underline cursor-pointer">Learn more</p>
                 </div>
               </div>
@@ -159,7 +159,7 @@ export default function Navbar() {
                 <div className="flex-1 space-y-4">
                   <Link to="/about" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">About</h4>
-                    <p className="text-gray-500 font-normal text-sm">Powering the crypto economy</p>
+                    <p className="text-gray-500 font-normal text-sm">Powering the crypt0 economy</p>
                   </Link>
                   <Link to="/careers" className="block p-3 hover:bg-gray-50 rounded-xl transition">
                     <h4 className="font-bold text-gray-900">Careers</h4>

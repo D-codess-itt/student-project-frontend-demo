@@ -37,7 +37,7 @@ The app will be available at `http://localhost:5173`
 
 - [ ] Use **React Router** for client-side navigation
 - [ ] Use **functional components** with React hooks
-- [ ] Create **reusable components** (Button, Card, CryptoRow, etc.)
+- [ ] Create **reusable components** (Button, Card, Crypt0Row, etc.)
 - [ ] Use **Tailwind CSS** for all styling (no external CSS frameworks)
 - [ ] Implement **responsive design** (mobile, tablet, desktop)
 - [ ] Use **React state management** (useState, useContext, or similar)
@@ -54,7 +54,7 @@ src/
 ├── components/      # Reusable React components
 │   ├── common/      # Shared components (Button, Card, Input, etc.)
 │   ├── layout/      # Layout components (Navbar, Footer, Sidebar)
-│   └── crypto/      # Crypto-specific components (CryptoCard, PriceChart)
+│   └── crypt0/      # Crypt0-specific components (Crypt0Card, PriceChart)
 ├── pages/           # Page components
 │   ├── Home.jsx
 │   ├── Explore.jsx

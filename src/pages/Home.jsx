@@ -41,10 +41,10 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-6xl font-bold text-gray-900 mb-6 tracking-tight leading-tight">
-              Hello, UK! Meet <br/> Zerobase GB
+              Hola, Everyone! Presenting <br/> Zerobase 
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-lg">
-              Zerobase is the most trusted platform in the UK for buying, selling and trading crypto. <br />Deposit GBP into your account for free to get started today.
+               Zerobase GB brings crypt0 trading to users. <br />DEMO ONLY: This is a student project. Do not deposit real funds.
             </p>
             <div className="flex space-x-4">
               <Link to="/signup" className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition">
@@ -72,8 +72,8 @@ export default function Home() {
             />
            </div>
            <div className="w-full md:w-1/2">
-             <h2 className="text-5xl font-bold mb-6">Earn up to 14% APY on your crypto</h2>
-             <p className="text-xl text-gray-400 mb-8">Put your crypto to work by staking with Zerobase and earn rewards of up to 14% APY on your holdings.</p>
+             <h2 className="text-5xl font-bold mb-6">Earn up to 18% APY on your crypt</h2>
+             <p className="text-xl text-gray-400 mb-8">Put your crypt0 to work by staking with Zerobase and earn rewards of up to 18% APY on your holdings.</p>
              <button className="bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition">
                Explore staking options
              </button>
@@ -81,12 +81,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. EXPLORE CRYPTO SECTION (Dark Theme) */}
+      {/* 3. EXPLORE CRYPT0 SECTION (Dark Theme) */}
       <section className="bg-white py-12 container mx-auto px-4">
         <div className="bg-gray-900 rounded-[40px] p-12 md:p-20 text-white grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-5xl font-bold mb-6">Explore crypto like Bitcoin, Ethereum, and Dogecoin.</h2>
-            <p className="text-xl text-gray-400 mb-8">Simply and securely buy, sell, and manage hundreds of cryptocurrencies.</p>
+            <h2 className="text-5xl font-bold mb-6">Explore crypt0 like Bitcoin, Ethereum, and Dogecoin.</h2>
+            <p className="text-xl text-gray-400 mb-8">Simply and securely buy, sell, and manage hundreds of crypt0currencies.</p>
             <Link to="/explore" className="bg-white text-gray-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition inline-block">
               See more assets
             </Link>
@@ -120,7 +120,7 @@ export default function Home() {
       <section className="bg-white py-24 container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-5xl font-bold text-gray-900 mb-8 leading-tight">Get lower, volume-based pricing with Advanced Trade</h2>
+            <h2 className="text-5xl font-bold text-gray-900 mb-8 leading-tight">Smarter trading starts with better tools</h2>
             <ul className="space-y-6 mb-10">
               <li className="flex gap-4">
                  <div className="mt-1 bg-gray-900 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs">✓</div>
@@ -159,17 +159,17 @@ export default function Home() {
             <div className="bg-blue-600 w-14 h-14 rounded-2xl mb-8 flex items-center justify-center text-white text-3xl shadow-lg">📖</div>
             <h2 className="text-4xl font-bold mb-4 text-gray-900">Learn the basics</h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              New to crypto? Not for long. Start with these guides and explainers to build your foundation.
+              New to crypt0? Not for long. Start with these guides and explainers to build your foundation.
             </p>
             <span className="text-blue-600 font-bold text-lg group-hover:translate-x-2 inline-block transition-transform">
-              See more crypto basics →
+              See more crypt0 basics →
             </span>
           </Link>
 
           {/* Explore Card -> Links to Explore.jsx */}
           <Link to="/explore" className="group p-10 bg-gray-50 rounded-[40px] hover:bg-blue-50 transition-all duration-300">
             <div className="bg-green-500 w-14 h-14 rounded-2xl mb-8 flex items-center justify-center text-white text-3xl shadow-lg">📈</div>
-            <h2 className="text-4xl font-bold mb-4 text-gray-900">Explore more crypto</h2>
+            <h2 className="text-4xl font-bold mb-4 text-gray-900">Explore more crypt0</h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Browse real-time prices, market caps, and daily movers for thousands of assets.
             </p>
@@ -184,10 +184,10 @@ export default function Home() {
       <section className="bg-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-7xl font-bold text-gray-900 mb-6 tracking-tight">
-            The most trusted <br /> cryptocurrency exchange
+            Your gateway to the <br /> digital asset economy
           </h1>
           <p className="text-xl text-gray-500 mb-8 max-w-2xl mx-auto">
-            Millions of users trust us, and so can you. The proof is in our platform.
+            Built for beginners and pros alike. Explore, trade, and grow your crypt0 portfolio with confidence.
           </p>
         </div>
       </section>

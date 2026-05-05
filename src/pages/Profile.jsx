@@ -6,7 +6,7 @@ export default function Profile() {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
-  // State for the "Add Crypto" form
+  // State for the "Add Crypt0" form
   const [cryptoName, setCryptoName] = useState('');
   const [symbol, setSymbol] = useState('');
   const [price, setPrice] = useState('');
@@ -79,9 +79,9 @@ export default function Profile() {
         <p className="text-gray-500">{userData.email}</p>
       </div>
 
-      {/* ADMIN FORM: Add New Crypto */}
+      {/* ADMIN FORM: Add New Crypt0 */}
       <div className="bg-gray-50 rounded-3xl p-8 border border-gray-200">
-        <h2 className="text-xl font-bold mb-6">Add New Cryptocurrency (Admin)</h2>
+        <h2 className="text-xl font-bold mb-6">Add New Crypt0currency (Admin)</h2>
         <form onSubmit={handleAddCrypto} className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input type="text" placeholder="Coin Name (e.g. Bitcoin)" className="p-3 border rounded" value={cryptoName} onChange={(e)=>setCryptoName(e.target.value)} required />
           <input type="text" placeholder="Symbol (e.g. BTC)" className="p-3 border rounded" value={symbol} onChange={(e)=>setSymbol(e.target.value)} required />
